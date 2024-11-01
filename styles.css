@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+body {
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+
+.section {
+  position: relative;
+  padding: 2rem 0;
+  background: #cccccc;
+  height: 100vh;
+}
+
+#section-1 {
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#job-titles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Tailwind-like styles */
+.text-center {
+  text-align: center;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+/* Animations */
