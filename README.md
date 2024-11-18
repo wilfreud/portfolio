@@ -1,2 +1,2 @@
 # Ideas
-[ ] Add stackoverflow profile
+- [ ] Add stackoverflow profile
